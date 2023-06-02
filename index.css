@@ -1,0 +1,65 @@
+body {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 0.5%;
+  font-family: cursive;
+  font-size: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: auto;
+  text-align: center;
+}
+
+th {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+  
+tr:nth-child(odd) td {
+  background-color: rgb(183, 206, 247, 0.35);
+  padding: 10px;
+}
+
+th:last-child, td:last-child {
+    text-align: left;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+img {
+  max-width: 200px;
+}
+
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.navbar li {
+  float: left;
+}
+
+ul.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.navbar li a:hover {
+  background-color: cornflowerblue;
+  transition: ease-in-out 0.5s;
+}
+
+h2  {
+  text-align: center;
+}

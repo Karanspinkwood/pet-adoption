@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pet Shelter</title>
+  <link rel="stylesheet" type="text/css" href="adopt.css">
+</head>
+<body>
+  <h1><img src="Logo.jpg" width="30px"> Robogarden Pet Shelter</h1>
+  
+  <ul class="navbar">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="adopt.html">Adopt a Pet</a></li>
+  </ul>
+
+  <h2 id="adoption-form">Adoption Form</h2>
+  <p>Fill the form below to apply for pet adoption.</p>
+  <form id="adoption-form" action="/submit-adoption" method="post">
+    <div class="form-row">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+    </div>
+    
+    <div class="form-row">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+    </div> 
+
+    <div class="form-row">
+      <label for="pet">Pet:</label>
+      <select id="pet" name="pet" required>
+        <option selected disabled>Select a pet</option>
+        <option value="Cooper">Cooper</option>
+        <option value="Luna">Luna</option>
+       <option value="Max">Max</option>
+       <option value="Winston">Winston</option>
+        <option value="Bella">Bella</option>
+      </select><br><br>
+    </div>
+
+    <input type="submit" value="Submit">
+  </form>
+
+</body>
+</html>

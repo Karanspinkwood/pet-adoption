@@ -1,0 +1,87 @@
+body {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 0.5%;
+  font-family: cursive;
+  font-size: 20px;
+}
+ 
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.navbar li {
+  float: left;
+}
+
+ul.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.navbar li a:hover {
+  background-color: cornflowerblue;
+  transition: ease-in-out 0.5s;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.form-row label {
+  width: 120px;
+  margin-right: 10px;
+}
+
+input {
+  font-size: 20px;
+}
+
+input:focus {
+  transform: scale(1.03);
+  transition: 0.8s;
+  font-size: 20px;
+}
+
+select {
+  font-family: cursive;
+  transition: background-color 0.3s ease-in-out;
+  transform: scale(1.03);
+  width: 150px;
+  font-size: 20px;
+}
+
+input[type="submit"] {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+  border: none;
+  font-family: cursive;
+  font-size: 20px;
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: cornflowerblue;
+}
+
+input[type="submit"]:focus {
+  outline: none;
+}
+
+input[type="submit"]:active {
+  background-color: rgb(153, 186, 247);
+}
